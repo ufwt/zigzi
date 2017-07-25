@@ -3,7 +3,7 @@
 .idea/
 doc/Makefile
 doc/Zigzi.rst
-doc/_build/
+doc/_build/doctrees
 doc/_static/
 doc/_templates/
 doc/index.rst

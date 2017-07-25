@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-"""Zigzi, Platform independent binary instrumentation module.
+"""zigzi, Platform independent binary instrumentation module.
 
 
 Copyright (c) 2016-2017 hanbum park <kese111@gmail.com>
@@ -32,7 +32,7 @@ def instrument_example(instruction):
     return None, 0
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser("Zigzi")
+    parser = argparse.ArgumentParser("zigzi")
     parser.add_argument("file",
                         help="filename include its absolute path.",
                         type=str)
