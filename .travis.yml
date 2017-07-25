@@ -48,7 +48,7 @@ after_success:
     - git remote add upstream "https://${GITHUB_TOKEN}@github.com/ParkHanbum/zigzi.git"
     - git fetch upstream
     - git reset upstream/gh-pages
-    - cp _build/html/* . -R
+    - cp _build/html/* . -f -R
     - git add -A .
     - git commit -m "update page at ${rev}"
     - git push -q upstream HEAD:gh-pages
